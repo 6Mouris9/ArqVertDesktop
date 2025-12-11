@@ -9,7 +9,7 @@ class Janela():
     entrada = Entry(window, textvariable="variavel")
     entrada.grid(row=2,column=2, padx=100,pady=110)
 
-    
+
     def button_callback():
         Janela.valor = Janela.entrada.get()
         print(Janela.valor)
