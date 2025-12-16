@@ -1,6 +1,6 @@
 from PIL import Image
+import pymupdf as mu
 import os
-
 
 imagem = Image.open()
 
